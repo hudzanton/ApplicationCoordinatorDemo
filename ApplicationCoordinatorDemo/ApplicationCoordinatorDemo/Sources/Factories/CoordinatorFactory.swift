@@ -28,8 +28,13 @@ extension CoordinatorFactory: CoordinatorFactoryType {
     return coordinator
   }
   
-  func makeLoginCoordinator(navigationController: UINavigationController) -> LoginCoordinatorOutput {
-    let coordinator = LoginCoordinator(factory: moduleFactory, router: makeRouter(navigationController))
+  func makeFlow1Coordinator(navigationController: UINavigationController) -> Flow1CoordinatorOutput {
+    let coordinator = Flow1Coordinator(factory: moduleFactory, router: makeRouter(navigationController))
+    return coordinator
+  }
+  
+  func makeFlow2Coordinator(navigationController: UINavigationController) -> Flow2CoordinatorOutput {
+    let coordinator = Flow2Coordinator(factory: moduleFactory, router: makeRouter(navigationController))
     return coordinator
   }
 }

@@ -8,6 +8,11 @@
 
 import UIKit
 
-protocol LoginModuleFactoryType {
-  func makeLoginController() -> LoginOutput
+protocol Flow1ModuleFactoryType {
+  func makeControllerA() -> ControllerAOutput
+}
+
+protocol Flow2ModuleFactoryType {
+  func makeControllerB() -> ControllerBOutput
+  func makeControllerC() -> ControllerCOutput
 }

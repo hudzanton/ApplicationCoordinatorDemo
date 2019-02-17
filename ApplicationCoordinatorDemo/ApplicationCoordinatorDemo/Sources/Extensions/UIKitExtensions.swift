@@ -9,7 +9,8 @@
 import UIKit
 
 enum Storyboard: String {
-  case loginFlow = "Login"
+  case flow1 = "Flow1"
+  case flow2 = "Flow2"
 }
 
 extension UIStoryboard {

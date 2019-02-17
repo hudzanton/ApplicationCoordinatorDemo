@@ -10,5 +10,6 @@ import UIKit
 
 protocol CoordinatorFactoryType {
   func makeApplicationCoordinator(window: UIWindow) -> ApplicationCoordinatorOutput
-  func makeLoginCoordinator(navigationController: UINavigationController) -> LoginCoordinatorOutput
+  func makeFlow1Coordinator(navigationController: UINavigationController) -> Flow1CoordinatorOutput
+  func makeFlow2Coordinator(navigationController: UINavigationController) -> Flow2CoordinatorOutput
 }

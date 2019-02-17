@@ -10,14 +10,27 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login Controller-->
+        <!--ControllerA-->
         <scene sceneID="fhf-5m-Ksp">
             <objects>
-                <viewController storyboardIdentifier="LoginController" id="eM2-2k-kHD" customClass="LoginController" customModule="ApplicationCoordinatorDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ControllerA" id="eM2-2k-kHD" customClass="ControllerA" customModule="ApplicationCoordinatorDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HLL-v0-JcA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCG-M8-sWb">
+                                <rect key="frame" x="144" y="318.5" width="87" height="30"/>
+                                <state key="normal" title="Finish Flow 1"/>
+                                <connections>
+                                    <action selector="finishFlowAction" destination="eM2-2k-kHD" eventType="touchUpInside" id="5yJ-2m-5ZU"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.90980392160000001" green="0.80000000000000004" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SCG-M8-sWb" firstAttribute="centerX" secondItem="HLL-v0-JcA" secondAttribute="centerX" id="Ofj-ZR-pKA"/>
+                            <constraint firstItem="SCG-M8-sWb" firstAttribute="centerY" secondItem="HLL-v0-JcA" secondAttribute="centerY" id="rnH-9p-hxt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Tn5-ww-Tgz"/>
                     </view>
                 </viewController>

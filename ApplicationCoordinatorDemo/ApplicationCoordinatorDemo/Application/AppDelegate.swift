@@ -29,6 +29,6 @@ extension AppDelegate {
   }
   
   private func makeApplicationCoordinator() -> ApplicationCoordinatorOutput {
-    return self.coordinatorFactory.makeApplicationCoordinator(window: window!)
+    return self.coordinatorFactory.makeApplicationCoordinator(window: window!) // swiftlint:disable:this force_unwrapping
   }
 }

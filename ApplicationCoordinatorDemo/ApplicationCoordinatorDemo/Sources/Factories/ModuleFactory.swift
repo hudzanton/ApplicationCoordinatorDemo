@@ -20,9 +20,21 @@ final class ModuleFactory {
 }
 
 // MARK: - Public funcs
-extension ModuleFactory: LoginModuleFactoryType {
-  func makeLoginController() -> LoginOutput {
-    let controller = UIStoryboard(.loginFlow).instantiateController() as LoginController
+extension ModuleFactory: Flow1ModuleFactoryType {
+  func makeControllerA() -> ControllerAOutput {
+    let controller = UIStoryboard(.flow1).instantiateController() as ControllerA
+    return controller
+  }
+}
+
+extension ModuleFactory: Flow2ModuleFactoryType {
+  func makeControllerB() -> ControllerBOutput {
+    let controller = UIStoryboard(.flow2).instantiateController() as ControllerB
+    return controller
+  }
+  
+  func makeControllerC() -> ControllerCOutput {
+    let controller = UIStoryboard(.flow2).instantiateController() as ControllerC
     return controller
   }
 }

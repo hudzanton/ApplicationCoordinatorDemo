@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		302FEF7522155418003AF721 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302FEF7422155418003AF721 /* Router.swift */; };
-		302FEF7722155CC6003AF721 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302FEF7622155CC6003AF721 /* LoginCoordinator.swift */; };
-		302FEF7922155CD3003AF721 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302FEF7822155CD3003AF721 /* LoginController.swift */; };
-		302FEF8022155F94003AF721 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302FEF7F22155F94003AF721 /* Login.storyboard */; };
+		302FEF7722155CC6003AF721 /* Flow1Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302FEF7622155CC6003AF721 /* Flow1Coordinator.swift */; };
+		302FEF7922155CD3003AF721 /* ControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302FEF7822155CD3003AF721 /* ControllerA.swift */; };
+		302FEF8022155F94003AF721 /* Flow1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302FEF7F22155F94003AF721 /* Flow1.storyboard */; };
 		304AD6552214D6DC0060008F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304AD6542214D6DC0060008F /* AppDelegate.swift */; };
 		304AD65C2214D6DE0060008F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304AD65B2214D6DE0060008F /* Assets.xcassets */; };
 		304AD65F2214D6DE0060008F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304AD65D2214D6DE0060008F /* LaunchScreen.storyboard */; };
@@ -27,13 +27,17 @@
 		304AD6882214DC0E0060008F /* CoordinatorSubFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304AD6812214DC0E0060008F /* CoordinatorSubFactories.swift */; };
 		304AD6892214DC0E0060008F /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304AD6822214DC0E0060008F /* CoordinatorFactory.swift */; };
 		304AD68A2214DC0E0060008F /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304AD6832214DC0E0060008F /* ModuleFactory.swift */; };
+		306C867422177826007CBD88 /* Flow2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306C867322177826007CBD88 /* Flow2.storyboard */; };
+		30DEA38E221A0B1700E8BB0F /* Flow2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DEA38D221A0B1700E8BB0F /* Flow2Coordinator.swift */; };
+		30DEA390221A0B6200E8BB0F /* ControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DEA38F221A0B6200E8BB0F /* ControllerB.swift */; };
+		30DEA392221A0B6A00E8BB0F /* ControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DEA391221A0B6A00E8BB0F /* ControllerC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		302FEF7422155418003AF721 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		302FEF7622155CC6003AF721 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
-		302FEF7822155CD3003AF721 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		302FEF7F22155F94003AF721 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		302FEF7622155CC6003AF721 /* Flow1Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow1Coordinator.swift; sourceTree = "<group>"; };
+		302FEF7822155CD3003AF721 /* ControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerA.swift; sourceTree = "<group>"; };
+		302FEF7F22155F94003AF721 /* Flow1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Flow1.storyboard; sourceTree = "<group>"; };
 		304AD6512214D6DC0060008F /* ApplicationCoordinatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicationCoordinatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304AD6542214D6DC0060008F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		304AD65B2214D6DE0060008F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +56,10 @@
 		304AD6812214DC0E0060008F /* CoordinatorSubFactories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorSubFactories.swift; sourceTree = "<group>"; };
 		304AD6822214DC0E0060008F /* CoordinatorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
 		304AD6832214DC0E0060008F /* ModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		306C867322177826007CBD88 /* Flow2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Flow2.storyboard; sourceTree = "<group>"; };
+		30DEA38D221A0B1700E8BB0F /* Flow2Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow2Coordinator.swift; sourceTree = "<group>"; };
+		30DEA38F221A0B6200E8BB0F /* ControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerB.swift; sourceTree = "<group>"; };
+		30DEA391221A0B6A00E8BB0F /* ControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				304AD65D2214D6DE0060008F /* LaunchScreen.storyboard */,
-				302FEF7F22155F94003AF721 /* Login.storyboard */,
+				302FEF7F22155F94003AF721 /* Flow1.storyboard */,
+				306C867322177826007CBD88 /* Flow2.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -159,24 +168,25 @@
 		304AD6672214D75F0060008F /* Flows */ = {
 			isa = PBXGroup;
 			children = (
-				304AD6682214D7750060008F /* Login */,
+				304AD6682214D7750060008F /* Flow1 */,
+				30DEA38A221A0AD500E8BB0F /* Flow2 */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
 		};
-		304AD6682214D7750060008F /* Login */ = {
+		304AD6682214D7750060008F /* Flow1 */ = {
 			isa = PBXGroup;
 			children = (
-				304AD66A2214D7D80060008F /* ViewControllers */,
 				304AD6692214D7CA0060008F /* Coordinators */,
+				304AD66A2214D7D80060008F /* ViewControllers */,
 			);
-			path = Login;
+			path = Flow1;
 			sourceTree = "<group>";
 		};
 		304AD6692214D7CA0060008F /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				302FEF7622155CC6003AF721 /* LoginCoordinator.swift */,
+				302FEF7622155CC6003AF721 /* Flow1Coordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -184,7 +194,7 @@
 		304AD66A2214D7D80060008F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				302FEF7822155CD3003AF721 /* LoginController.swift */,
+				302FEF7822155CD3003AF721 /* ControllerA.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +237,32 @@
 				304AD6832214DC0E0060008F /* ModuleFactory.swift */,
 			);
 			path = Factories;
+			sourceTree = "<group>";
+		};
+		30DEA38A221A0AD500E8BB0F /* Flow2 */ = {
+			isa = PBXGroup;
+			children = (
+				30DEA38C221A0AF100E8BB0F /* Coordinators */,
+				30DEA38B221A0AE100E8BB0F /* ViewControllers */,
+			);
+			path = Flow2;
+			sourceTree = "<group>";
+		};
+		30DEA38B221A0AE100E8BB0F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				30DEA38F221A0B6200E8BB0F /* ControllerB.swift */,
+				30DEA391221A0B6A00E8BB0F /* ControllerC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30DEA38C221A0AF100E8BB0F /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				30DEA38D221A0B1700E8BB0F /* Flow2Coordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +326,8 @@
 			files = (
 				304AD65F2214D6DE0060008F /* LaunchScreen.storyboard in Resources */,
 				304AD65C2214D6DE0060008F /* Assets.xcassets in Resources */,
-				302FEF8022155F94003AF721 /* Login.storyboard in Resources */,
+				302FEF8022155F94003AF721 /* Flow1.storyboard in Resources */,
+				306C867422177826007CBD88 /* Flow2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302FEF7722155CC6003AF721 /* LoginCoordinator.swift in Sources */,
+				302FEF7722155CC6003AF721 /* Flow1Coordinator.swift in Sources */,
+				30DEA38E221A0B1700E8BB0F /* Flow2Coordinator.swift in Sources */,
 				304AD6762214DAC50060008F /* BaseViewController.swift in Sources */,
+				30DEA392221A0B6A00E8BB0F /* ControllerC.swift in Sources */,
 				304AD6882214DC0E0060008F /* CoordinatorSubFactories.swift in Sources */,
 				304AD67A2214DB7B0060008F /* BaseViewType.swift in Sources */,
 				304AD68A2214DC0E0060008F /* ModuleFactory.swift in Sources */,
@@ -333,8 +372,9 @@
 				302FEF7522155418003AF721 /* Router.swift in Sources */,
 				304AD6552214D6DC0060008F /* AppDelegate.swift in Sources */,
 				304AD6862214DC0E0060008F /* ComponentFactoryType.swift in Sources */,
+				30DEA390221A0B6200E8BB0F /* ControllerB.swift in Sources */,
 				304AD6842214DC0E0060008F /* ComponentFactory.swift in Sources */,
-				302FEF7922155CD3003AF721 /* LoginController.swift in Sources */,
+				302FEF7922155CD3003AF721 /* ControllerA.swift in Sources */,
 				304AD6702214D92F0060008F /* UIKitExtensions.swift in Sources */,
 				304AD6872214DC0E0060008F /* ModuleFactoryType.swift in Sources */,
 				304AD6722214DA590060008F /* ApplicationCoordinator.swift in Sources */,
@@ -485,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahudz.ApplicationCoordinatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -502,7 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahudz.ApplicationCoordinatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

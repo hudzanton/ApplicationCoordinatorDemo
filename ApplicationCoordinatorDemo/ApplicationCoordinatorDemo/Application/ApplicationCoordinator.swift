@@ -29,16 +29,27 @@ final class ApplicationCoordinator: BaseCoordinator, ApplicationCoordinatorOutpu
   
   func start() {
     window.makeKeyAndVisible()
-    runLoginFlow()
+    runFlow1()
   }
   
   // MARK: - Private funcs
-  private func runLoginFlow() {
-    let loginCoordinator = coordinatorFactory.makeLoginCoordinator(navigationController: rootViewController)
-    loginCoordinator.finishFlow = { [weak self, weak loginCoordinator] in
-      self?.removeDependency(loginCoordinator)
+  private func runFlow1() {
+    let flow1Coordinator = coordinatorFactory.makeFlow1Coordinator(navigationController: rootViewController)
+    flow1Coordinator.finishFlow = { [weak self, weak flow1Coordinator] in
+      self?.removeDependency(flow1Coordinator)
+      self?.runFlow2()
     }
-    addDependency(loginCoordinator)
-    loginCoordinator.start()
+    addDependency(flow1Coordinator)
+    flow1Coordinator.start()
+  }
+  
+  private func runFlow2() {
+    let flow2Coordinator = coordinatorFactory.makeFlow2Coordinator(navigationController: rootViewController)
+    flow2Coordinator.finishFlow = { [weak self, weak flow2Coordinator] in
+      self?.removeDependency(flow2Coordinator)
+      self?.runFlow1()
+    }
+    addDependency(flow2Coordinator)
+    flow2Coordinator.start()
   }
 }
